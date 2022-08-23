@@ -11,7 +11,9 @@ import css from './App.module.css';
 // import LifeCyclesCWU from "./components/LifeCyclesCWU";
 // import UncontrolledForm from "./components/UncontrolledForm";
 // import SearchBar from "./components/SearchBar";
-import ContentSearch from "./components/ContentSearch";
+// import ContentSearch from "./components/ContentSearch";
+import ControlledFormHooks from './components/ControlledFormHooks';
+
 
 
 function App() {
@@ -29,7 +31,8 @@ function App() {
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
       {/* <SearchBar /> */}
-      <ContentSearch />
+      {/* <ContentSearch /> */}
+      <ControlledFormHooks />
     </div>
   );
 }
