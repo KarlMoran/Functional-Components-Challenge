@@ -13,7 +13,8 @@ import css from './App.module.css';
 // import SearchBar from "./components/SearchBar";
 // import ContentSearch from "./components/ContentSearch";
 // import ControlledFormHooks from './components/ControlledFormHooks';
-import UseStateWithArrays from './components/UseStateWithArrays';
+// import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
 
 
 
@@ -34,7 +35,8 @@ function App() {
       {/* <SearchBar /> */}
       {/* <ContentSearch /> */}
       {/* <ControlledFormHooks /> */}
-      <UseStateWithArrays />
+      {/* <UseStateWithArrays /> */}
+      <UseStateWithObjects />
     </div>
   );
 }
