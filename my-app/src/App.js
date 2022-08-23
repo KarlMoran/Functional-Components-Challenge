@@ -14,8 +14,9 @@ import css from './App.module.css';
 // import ContentSearch from "./components/ContentSearch";
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import UseStateWithArrays from './components/UseStateWithArrays';
-import UseStateWithObjects from './components/UseStateWithObjects';
-
+// import UseStateWithObjects from './components/UseStateWithObjects';
+// import ClassCounter from './components/ClassCounter';
+import UseEffectCounter from './components/UseEffectCounter';
 
 
 function App() {
@@ -36,7 +37,9 @@ function App() {
       {/* <ContentSearch /> */}
       {/* <ControlledFormHooks /> */}
       {/* <UseStateWithArrays /> */}
-      <UseStateWithObjects />
+      {/* <UseStateWithObjects /> */}
+      {/* <ClassCounter /> */}
+      <UseEffectCounter />
     </div>
   );
 }
