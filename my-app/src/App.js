@@ -1,4 +1,6 @@
 import css from './App.module.css';
+// import Content from './components/Content';
+import ContentHooks from './components/ContentHooks';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import Sidebar from './components/Sidebar';
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -16,7 +18,9 @@ import css from './App.module.css';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import ClassCounter from './components/ClassCounter';
-import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+
 
 
 function App() {
@@ -39,7 +43,9 @@ function App() {
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
       {/* <ClassCounter /> */}
-      <UseEffectCounter />
+      {/* <UseEffectCounter /> */}
+      {/* <UseEffectCounterContainer /> */}
+      <ContentHooks />
     </div>
   );
 }
