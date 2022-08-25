@@ -1,6 +1,7 @@
 import css from './App.module.css';
+import HTTPRequests from './components/HTTPRequests';
 // import Content from './components/Content';
-import ContentHooks from './components/ContentHooks';
+// import ContentHooks from './components/ContentHooks';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import Sidebar from './components/Sidebar';
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -45,7 +46,8 @@ function App() {
       {/* <ClassCounter /> */}
       {/* <UseEffectCounter /> */}
       {/* <UseEffectCounterContainer /> */}
-      <ContentHooks />
+      {/* <ContentHooks /> */}
+      <HTTPRequests />
     </div>
   );
 }
