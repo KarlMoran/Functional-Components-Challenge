@@ -1,5 +1,6 @@
 import css from './App.module.css';
-import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
+// import HTTPPost from './components/HTTPPost';
 // import HTTPRequests from './components/HTTPRequests';
 // import Content from './components/Content';
 // import ContentHooks from './components/ContentHooks';
@@ -49,7 +50,8 @@ function App() {
       {/* <UseEffectCounterContainer /> */}
       {/* <ContentHooks /> */}
       {/* <HTTPRequests /> */}
-      <HTTPPost />
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div>
   );
 }
