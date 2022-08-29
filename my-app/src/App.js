@@ -1,5 +1,6 @@
 import css from './App.module.css';
-import HTTPHooks from './components/HTTPHooks';
+import ContentAPI from './components/ContentAPI';
+// import HTTPHooks from './components/HTTPHooks';
 // import HTTPPost from './components/HTTPPost';
 // import HTTPRequests from './components/HTTPRequests';
 // import Content from './components/Content';
@@ -51,7 +52,8 @@ function App() {
       {/* <ContentHooks /> */}
       {/* <HTTPRequests /> */}
       {/* <HTTPPost /> */}
-      <HTTPHooks />
+      {/* <HTTPHooks /> */}
+      <ContentAPI />
     </div>
   );
 }
